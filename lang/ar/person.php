@@ -1,0 +1,172 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    // Labels
+    'biological'      => 'بيولوجي',
+    'contact'         => 'جهة الاتصال',
+    'person'          => 'شخص',
+    'person_metadata' => 'بيانات الشخص الوصفية',
+    'people'          => 'أشخاص',
+
+    'family'  => 'العائلة',
+    'profile' => 'الملف الشخصي',
+
+    'partner'  => 'شريك',
+    'partners' => 'شركاء',
+
+    'children'      => 'الأطفال',
+    'parents'       => 'الوالدان',
+    'grandchildren' => 'الأحفاد',
+    'siblings'      => 'الأشقاء',
+    'ancestors'     => 'الأسلاف',
+    'descendants'   => 'الذرية',
+    'birth'         => 'الولادة',
+    'dead'          => 'ميت',
+    'death'         => 'الوفاة',
+    'deceased'      => 'المتوفى',
+
+    'grandmother'   => 'الجدة',
+    'grandfather'   => 'الجد',
+    'nieces'        => 'البنات',
+    'nephews'       => 'الأبناء',
+    'cousins'       => 'الأبناء',
+    'uncles'        => 'الأعمام',
+    'aunts'         => 'العمات',
+    'relationships' => 'العلاقات',
+    'age'           => 'العمر',
+    'years'         => '[0,1] سنة|[2,*] سنوات',
+
+    'source'           => 'المصدر',
+    'source_hint'      => 'حدد مصدر الملف(ات) التي ستقوم برفعها',
+    'source_date'      => 'التاريخ',
+    'source_date_hint' => 'حدد تاريخ مصدر الملف(ات) التي ستقوم برفعها',
+
+    // Actions
+    'add_father'                     => 'إضافة الأب',
+    'add_new_person_as_father'       => 'إضافة شخص جديد كأب',
+    'add_existing_person_as_father'  => 'إضافة شخص موجود كأب',
+    'add_mother'                     => 'إضافة الأم',
+    'add_new_person_as_mother'       => 'إضافة شخص جديد كأم',
+    'add_existing_person_as_mother'  => 'إضافة شخص موجود كأم',
+    'add_child'                      => 'إضافة طفل',
+    'add_new_person_as_child'        => 'إضافة شخص جديد كطفل',
+    'add_existing_person_as_child'   => 'إضافة شخص موجود كطفل',
+    'add_person'                     => 'إضافة شخص',
+    'add_new_person_as_partner'      => 'إضافة شخص جديد كشريك',
+    'add_existing_person_as_partner' => 'إضافة شخص موجود كشريك',
+    'add_person_in_team'             => 'إضافة شخص في الفريق: :team',
+    'add_photo'                      => 'إضافة صورة',
+    'add_relationship'               => 'إضافة علاقة',
+
+    'edit'              => 'تعديل',
+    'edit_children'     => 'تعديل الأطفال',
+    'edit_contact'      => 'تعديل جهة الاتصال',
+    'edit_death'        => 'تعديل الوفاة',
+    'edit_family'       => 'تعديل العائلة',
+    'edit_files'        => 'تعديل الملفات',
+    'edit_person'       => 'تعديل الشخص',
+    'edit_profile'      => 'تعديل الملف الشخصي',
+    'edit_relationship' => 'تعديل العلاقة',
+
+    'delete_child'        => 'قطع اتصال الطفل',
+    'delete_person'       => 'حذف الشخص',
+    'delete_relationship' => 'حذف العلاقة',
+
+    // Attributes
+    'id'          => 'المعرف',
+    'name'        => 'الاسم',
+    'names'       => 'الأسماء',
+    'firstname'   => 'الاسم الأول',
+    'surname'     => 'الاسم الأخير',
+    'birthname'   => 'اسم الميلاد',
+    'nickname'    => 'اللقب',
+    'sex'         => 'الجنس',
+    'gender'      => 'الهوية الجنسية',
+    'father'      => 'الأب',
+    'mother'      => 'الأم',
+    'parent'      => 'الوالد',
+    'dob'         => 'تاريخ الميلاد',
+    'yob'         => 'سنة الميلاد',
+    'pob'         => 'مكان الميلاد',
+    'dod'         => 'تاريخ الوفاة',
+    'yod'         => 'سنة الوفاة',
+    'pod'         => 'مكان الوفاة',
+    'summary'     => 'الملخص',
+    'email'       => 'البريد الإلكتروني',
+    'password'    => 'كلمة المرور',
+    'address'     => 'العنوان',
+    'street'      => 'الشارع',
+    'number'      => 'الرقم',
+    'postal_code' => 'الرمز البريدي',
+    'city'        => 'المدينة',
+    'province'    => 'المقاطعة',
+    'state'       => 'الولاية',
+    'country'     => 'البلد',
+    'phone'       => 'الهاتف',
+
+    'cemetery'          => 'المقبرة',
+    'cemetery_location' => 'موقع المقبرة',
+
+    // files
+    'files'            => 'الملفات',
+    'files_saved'      => '[0] لم يتم حفظ ملفات|[1] تم حفظ ملف|[2,*] تم حفظ ملفات',
+    'file'             => 'الملف',
+    'file_deleted'     => 'تم حذف الملف',
+    'upload_files'     => 'رفع ملفات',
+    'upload_files_tip' => 'اسحب وأفلت ملفاتك الجديدة هنا...',
+
+    'upload_accept_types' => 'مسموح: :types',
+    'upload_max_size'     => 'الحجم الأقصى: :max كيلوبايت',
+
+    // Photo
+    'avatar'                   => 'الصورة الشخصية',
+    'edit_photos'              => 'تعديل الصور',
+    'photo_delete_failed'      => 'فشل في حذف الصورة',
+    'photo_deleted'            => 'تم حذف الصورة',
+    'photo'                    => 'صورة',
+    'photos'                   => 'صور',
+    'photos_saved'             => '[0] لم يتم حفظ صور|[1] تم حفظ صورة|[2,*] :count تم حفظ صور',
+    'photos_save_failed'       => 'فشل في حفظ (بعض) الصور',
+    'photos_existing'          => 'الصور الموجودة',
+    'photo_set_primary'        => 'تعيين كأساسية',
+    'photo_set_primary_failed' => 'فشل في تعيين الصورة الأساسية',
+    'photo_is_set_primary'     => 'تم تعيين الصورة الجديدة كأساسية',
+    'upload_photos'            => 'رفع صور',
+    'upload_photos_tip'        => 'اسحب وأفلت صورك الجديدة هنا...',
+
+    // Messages
+    'yod_not_matching_dod' => 'يجب أن تتطابق سنة الوفاة مع تاريخ الوفاة (:value).',
+    'yod_before_dob'       => 'لا يمكن أن تكون سنة الوفاة قبل تاريخ الميلاد (:value).',
+    'yod_before_yob'       => 'لا يمكن أن تكون سنة الوفاة قبل سنة الميلاد (:value).',
+
+    'dod_not_matching_yod' => 'يجب أن يتطابق تاريخ الوفاة مع سنة الوفاة (:value).',
+    'dod_before_dob'       => 'لا يمكن أن يكون تاريخ الوفاة قبل تاريخ الميلاد (:value).',
+    'dod_before_yob'       => 'لا يمكن أن يكون تاريخ الوفاة قبل سنة الميلاد (:value).',
+
+    'yob_not_matching_dob' => 'يجب أن تتطابق سنة الميلاد مع تاريخ الميلاد (:value).',
+    'yob_after_dod'        => 'لا يمكن أن تكون سنة الميلاد بعد تاريخ الوفاة (:value).',
+    'yob_after_yod'        => 'لا يمكن أن تكون سنة الميلاد بعد سنة الوفاة (:value).',
+
+    'dob_not_matching_yob' => 'يجب أن يتطابق تاريخ الميلاد مع سنة الميلاد (:value).',
+    'dob_after_dod'        => 'لا يمكن أن يكون تاريخ الميلاد بعد تاريخ الوفاة (:value).',
+    'dob_after_yod'        => 'لا يمكن أن يكون تاريخ الميلاد بعد سنة الوفاة (:value).',
+
+    'not_found' => 'لم يتم العثور على الشخص',
+    'use_tab'   => 'استخدم التبويب',
+
+    'existing_person_linked_as_father'  => 'تم ربط الشخص الموجود كأب.',
+    'new_person_linked_as_father'       => 'تم ربط الشخص الجديد كأب.',
+    'existing_person_linked_as_mother'  => 'تم ربط الشخص الموجود كأم.',
+    'new_person_linked_as_mother'       => 'تم ربط الشخص الجديد كأم.',
+    'existing_person_linked_as_child'   => 'تم ربط الشخص الموجود كطفل.',
+    'new_person_linked_as_child'        => 'تم ربط الشخص الجديد كطفل.',
+    'existing_person_linked_as_partner' => 'تم ربط الشخص الموجود كشريك.',
+    'new_person_linked_as_parther'      => 'تم ربط الشخص الجديد كشريك.',
+
+    'family_caution_1' => 'يمكن استخدام الأب والأم فقط للوالدين البيولوجيين ويجب أن يكونا من جنسين مختلفين.',
+    'family_caution_2' => 'يمكن أن يكون الوالدان البيولوجيين، ولكن يمكن أيضاً استخدامهما للوالدين غير البيولوجيين (مثليين أو متبنين). في الحالة الأخيرة، اترك الأب والأم فارغين ببساطة.',
+
+    'parents_id_exclusive' => 'الوالدان حصريان. إذا قمت بتعيين الوالدين، لا يمكنك تعيين الأب أو الأم.',
+];
